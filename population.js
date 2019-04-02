@@ -1,5 +1,6 @@
 function Population(total_) {
-  this.popsize = 1000;
+  this.popsize = prompt("Enter population size, please.", 100)
+  console.log(this.popsize);
   this.totalGoal = total_;
   this.rockets = [];
   this.matingpool = [];
